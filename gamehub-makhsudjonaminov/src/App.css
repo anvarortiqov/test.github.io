@@ -1,0 +1,137 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+ol{
+  margin-block-start: 0;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  width: 500px;
+ height: 400px;
+
+  background-color: #222222;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.title{
+  color: white;
+}
+.name{
+  color: white;
+}
+.gbtn{
+  border: 1px solid blue;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+}
+.history-list{
+  min-height: 10px;
+  height: auto;
+  max-height: 150px;
+  overflow: auto;
+}
+.game-btn{
+  margin-top: 20px;
+}
+.game-btns{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.square{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-row{
+  display: flex;
+  justify-content: center;
+  
+}
+.game-info{
+  min-height: 10px;
+  height: auto;
+  max-height: 150px;
+  overflow: auto; 
+}
+.btn-home{
+  transform: translate(150px, -190px);
+  -webkit-transform: translate(150px, -190px);
+  -moz-transform: translate(150px, -190px);
+  -ms-transform: translate(150px, -190px);
+  -o-transform: translate(150px, -190px);
+}
+.btn-home a{
+  border: 1px solid white;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 3px;
+  color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.home-btn{
+  border: 1px solid white;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 3px;
+  color: white;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.home-title{
+  margin-bottom: 80px;
+}
+.gbtn{
+  margin: 10px;
+}
+.view-btns{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
